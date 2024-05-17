@@ -38,7 +38,7 @@ const (
 	defaultSubRoutineTimeout = time.Second * 5
 
 	// TODO: Make cache configurable?
-	cacheSize       = 64 * 1024
+	cacheSize       = 0
 	cacheTlt        = time.Hour
 	cacheGcInterval = time.Minute
 )
