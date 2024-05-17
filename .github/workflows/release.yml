@@ -36,7 +36,7 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: './release/mosdns*.zip'
-          tag_name: 3.2.2
+          tag_name: 5.3.1
           prerelease: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
